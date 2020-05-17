@@ -6,7 +6,7 @@ import TableCell from '@material-ui/core/TableCell';
 import TableContainer from '@material-ui/core/TableContainer';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-function ListBook({booksList}) {
+function ListBook({booksList, update}) {
     const [change, setChange] = useState(0)
     console.log(booksList);
     const list =booksList

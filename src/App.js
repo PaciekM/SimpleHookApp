@@ -24,7 +24,7 @@ function App() {
         <h2>Simple book management with hooks</h2>
         <div className="addBook">
           <AddBook update={change}></AddBook>
-          <ListBook booksList={list} update={change}></ListBook>
+          <ListBook booksList={list} update={change} ></ListBook>
           
         </div>
     </div>
