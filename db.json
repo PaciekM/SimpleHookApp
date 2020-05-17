@@ -1,14 +1,10 @@
 {
   "books": [
     {
-      "title": "json-server",
-      "author": "typicode",
-      "date":1994
-    },
-    {
+      "id": 2,
       "title": "json-server2",
       "author": "typicode2",
-      "date":1995
+      "date": 1995
     }
   ]
 }
